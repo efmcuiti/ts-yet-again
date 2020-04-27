@@ -1,0 +1,29 @@
+{
+  "name": "ts-yet-again",
+  "version": "1.0.0",
+  "description": "Learning typescript revisited for 2020",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efmcuiti/ts-yet-again.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "javascript",
+    "learning"
+  ],
+  "author": "efmcuiti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efmcuiti/ts-yet-again/issues"
+  },
+  "homepage": "https://github.com/efmcuiti/ts-yet-again#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

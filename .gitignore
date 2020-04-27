@@ -1,0 +1,11 @@
+// Exclude MAC's system folder
+.DS_Store
+
+// Exclude JS files
+*.js
+
+// Exclude node modules folder
+node_modules/
+
+// ... and the lock file
+package-lock.json
