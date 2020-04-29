@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/efmcuiti/ts-yet-again#readme",
   "devDependencies": {
+    "eslint": "^6.8.0",
     "lite-server": "^2.5.4"
   }
 }
