@@ -24,7 +24,11 @@
   },
   "homepage": "https://github.com/efmcuiti/ts-yet-again#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
     "eslint": "^6.8.0",
-    "lite-server": "^2.5.4"
+    "eslint-config-google": "^0.14.0",
+    "lite-server": "^2.5.4",
+    "typescript": "^3.8.3"
   }
 }

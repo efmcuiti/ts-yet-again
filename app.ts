@@ -1,1 +1,1 @@
-console.log("Put your freaking code here")
+console.log('Put your freaking code here');
