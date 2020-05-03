@@ -10,10 +10,20 @@ console.log('Put your freaking code here');
  * @return {number} The math result from parameters.
  */
 function add(firsty: number, secondy: number) {
+  let message: string; // Just type assignment when not assigning it at the same time.
+  if (firsty % 2 == 0) {
+    message = "Odd";
+  } else {
+    message = "Even";
+  }
+
+  console.log(message, firsty + secondy)
+
   return firsty + secondy;
 };
 
-const number1 = 12;
+// TS number is a float by default.
+const number1= 12; // == 12.0
 const number2 = 5;
 
 console.log('Faquin result: ', add(number1, number2));
