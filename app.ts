@@ -10,14 +10,14 @@ console.log('Put your freaking code here');
  * @return {number} The math result from parameters.
  */
 function add(firsty: number, secondy: number) {
-  let message: string; // Just type assignment when not assigning it at the same time.
+  let message: string; // No type assignment when assigning it at the same time.
   if (firsty % 2 == 0) {
-    message = "Odd";
+    message = 'Odd';
   } else {
-    message = "Even";
+    message = 'Even';
   }
 
-  console.log(message, firsty + secondy)
+  console.log(message, firsty + secondy);
 
   return firsty + secondy;
 };
