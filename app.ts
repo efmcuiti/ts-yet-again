@@ -23,7 +23,18 @@ function add(firsty: number, secondy: number) {
 };
 
 // TS number is a float by default.
-const number1= 12; // == 12.0
+const number1 = 12; // == 12.0
 const number2 = 5;
+// Inline object definition.
+const developer: {
+  language: string,
+  nick: string,
+  experience: number
+} = {
+  language: 'python',
+  nick: 'efmcuiti',
+  experience: 10,
+};
 
 console.log('Faquin result: ', add(number1, number2));
+console.log('My devy: ', developer.nick);
